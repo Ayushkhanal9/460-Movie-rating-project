@@ -1,12 +1,18 @@
 Introduction: Describe what the project is about. Why is it interesting? What makes it challenging? Any vague ideas about the solution you will propose? 
+
 Our project will analyze movie reviews to determine the rating that a movie watcher gave. We find this interesting because we are hoping to be able to see the difference between a 5-star review, and a 4-star review based on how the user responded to the movie in their review. However, this is also where the challenge comes in. On Rotten Tomatoes, movie watchers are able to rank a movie from 1 star to 5 stars. Although it would be easy to see the difference between a 1-star and a 5-star review, it may be challenging to find the difference between a 2-star and a 3-star review especially when they will most likely still be using the same key words. 
+
 We plan on trying to overcome this challenge by taking into consideration more than just key words. The length of the review and the phrases that they use ontop of the keywords that we already search for can be things that we use to help differentiate between 2 star levels. We may also have to take into consideration the “outliers” in these situations such as those who are sarcastic in their reviews or those who over exaggerate their reviews. 
 Datasets: Are there any dataset(s) you will use in your project? If you will curate your own dataset, highlight why you need to curate your own dataset, the process (rough) of curation, and other details, if any. 
+
 We will need to curate our own dataset of Rotten Tomatoes reviews and the corresponding star rating. Since there isn't an existing dataset available online for our specific needs, we'll have to copy and paste reviews and their associated star ratings into a csv file that we can then use as our dataset.
 Evaluation metrics: What metrics will you use to evaluate your approach? 
+
 We could use k-fold cross validation to partition our dataset into k subsets or "folds" and iteratively using each fold as a validation set while the remaining folds are used for training. We could use the cross-validation scores, or even just the mean accuracy to evaluate our model.
+
 Baseline model: What baseline models (e.g., linear models, SVM) you will use to compare with your approach?
 We could use either a SVM or k-NN for text classification as a baseline model. We would do this by converting the text data into numerical features and using a train-test split to split the dataset and train and test our model. We could also use a more simple baseline such as the mean rating or a random rating.
+
 Model Plans: Any idea of what kind of models (MLP/RNNs/Transformers) you plan to use and how? 
 We will be using preprocessing to remove unnecessary texts/ data and word/ sentence tokenization.
  We will start with trying out naive bayes and logistic regression for text classification. We could try to use RNNs as well as we think it will help us catch dependencies between words.
