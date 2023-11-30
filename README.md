@@ -9,7 +9,7 @@ source venv/bin/activate
 pip install --upgrade pandas nltk sklearn
 ```
 
-### Authors 
+## Authors 
 <p>Ayush Khanal - 12280920 <br>
 Charlotte Shores - 12499742 <br>
 Nikhil Akula - 912601051 <br>
