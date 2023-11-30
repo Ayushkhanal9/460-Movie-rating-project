@@ -8,3 +8,9 @@ python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pandas nltk sklearn
 ```
+
+### Authors 
+Ayush Khanal - 12280920
+Charlotte Shores - 12499742
+Nikhil Akula - 912601051
+Sydney Chapman - 12445586
