@@ -10,7 +10,7 @@ pip install --upgrade pandas nltk sklearn
 ```
 
 ### Authors 
-Ayush Khanal - 12280920
-Charlotte Shores - 12499742
-Nikhil Akula - 912601051
-Sydney Chapman - 12445586
+Ayush Khanal - 12280920 <br>
+Charlotte Shores - 12499742 <br>
+Nikhil Akula - 912601051 <br>
+Sydney Chapman - 12445586 <br>
